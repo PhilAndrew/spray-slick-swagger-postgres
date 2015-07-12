@@ -8,8 +8,11 @@ val sharedSettings = Defaults.coreDefaultSettings ++ Seq(
   libraryDependencies ++= Seq(
     "com.typesafe.slick" %% "slick" % slickV,
     "com.h2database" % "h2" % "1.3.175",
-    "org.postgresql" % "postgresql" % "9.3-1100-jdbc41",
-    "mysql" % "mysql-connector-java" % "5.1.35"
+    "org.postgresql" % "postgresql" % "9.4-1201-jdbc41",
+    "mysql" % "mysql-connector-java" % "5.1.35",
+    "com.github.tminglei" %% "slick-pg" % "0.9.0",
+    "com.typesafe.play" % "play_2.11" % "2.4.2",
+    "com.vividsolutions" % "jts" % "1.13"
   )
 )
 /** main project containing main source code depending on slick and codegen project */
