@@ -1,9 +1,10 @@
-# SpraySlickSwagger
+# SpraySlickSwaggerPostgres
 The Spray Slick Swagger is a very simple rest api in [Spray](https://github.com/spray/spray) showing one way of using spray with [slick 3](https://github.com/slick/slick) library for database access, and [spray-swagger](https://github.com/gettyimages/spray-swagger) for documentation the routes in spray.
 
 
 It supports the following features:
 
+* Uses Postgres
 * Spray-json to parse json
 * Swagger to document routes and json
 * (Removed in v 0.0.2) Data access layer composed by data access Akka actors.
